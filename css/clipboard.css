@@ -1,0 +1,381 @@
+@font-face{
+    src: url(Font/BaiJamjuree-Bold.ttf);
+    font-family: bai-bold;
+}
+@font-face{
+    src: url(Font/BaiJamjuree-Light.ttf);
+    font-family: bai-light;
+}
+header{
+    background-image: url(images/bg-header-mobile.png); 
+    background-repeat: no-repeat;
+}
+.logo-con{
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    width: 70px;
+    margin-top: 70px;
+}
+.word-header{
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 30px;
+    font-family: bai-bold;
+}
+.subword-header{
+    text-align: center;
+    margin-right: 47px;
+    margin-left: 47px;
+    font-size: 14px;
+    font-family: bai-light;
+}
+.download{
+    background-color: hsl(171, 66%, 44%);
+    margin-bottom: 20px;
+    padding: 10px;
+    padding-right: 75px;
+    padding-left: 75px;
+    border-radius: 40px;
+    border: white;
+    color: white;
+    font-family: bai-light;
+    font-size: 16px;
+    font-weight: 400;
+}
+.download1{
+    background-color: hsl(233, 100%, 69%);
+    padding: 10px;
+    padding-right: 75px;
+    padding-left: 75px;
+    border-radius: 40px;
+    border: white;
+    color: white;
+    font-family: bai-light;
+    font-size: 16px;
+    font-weight: 400;
+}
+.button-section{
+    padding-top: 20px;
+    margin-left: 45px;
+}
+.body-1-header{
+    padding-top: 100px;
+    text-align: center;
+    font-family: bai-bold;
+    font-size: 30px;
+}
+.body-1-subword{
+    text-align: center;
+    font-family: bai-light;
+    font-size: 14px;
+    margin-right: 44px;
+    margin-left: 44px;
+}
+.img-con{
+    display: flex;
+    justify-content: center;
+}
+.body-2-2{
+    margin-top: 50px;
+}
+.body-2-image{
+    padding-top: 50px;
+    width: 300px;
+}
+.body-2-top h3{
+    text-align: center;
+    font-size: 20px;
+    font-family: bai-bold;
+}
+.body-2-top p{
+    text-align: center;
+    font-size: 14px;
+    font-family: bai-light;
+    margin-left: 37px;
+    margin-right: 37px;
+}
+.body-3{
+    margin-top: 150px;
+}
+.body-3 h1{
+    text-align: center;
+    font-family: bai-bold;
+}
+.body-3 p{
+    text-align: center;
+    font-family: bai-light;
+    font-size: 14px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.body-3 img{
+    width: 300px;
+    padding-top: 50px;
+}
+.body-4{
+    margin-top: 80px;
+}
+.body-4 h1{
+    text-align: center;
+    font-family: bai-bold;
+}
+.body-4 p{
+    text-align: center;
+    font-family: bai-light;
+    font-size: 14px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 50px;
+}
+.body-4-grid{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.grid1 img{
+    padding-top: 40px;
+}
+.grid1 h2{
+    text-align: center;
+    font-family: bai-bold;
+    font-size: 25px;
+}
+.grid1 p{
+    text-align: center;
+    font-family: bai-light;
+    font-size: 14px;
+    margin-left: 40px;
+    margin-right: 40px;
+} 
+.sponsor{
+    margin-left:130px;
+    margin-top: 40px;
+}
+.sponsor img{
+    width: 100px;
+    margin-top: 50px;
+    align-content: center;
+}
+.body-end h1{
+    text-align: center;
+    font-family: bai-bold;
+    font-size: 30px;
+}
+.body-end p{
+    text-align: center;
+    font-family: bai-light;
+    font-size: 14px;
+    margin-left: 48px;
+    margin-right: 48px;
+    margin-bottom: 50px;
+}
+.button-section1{
+    margin-left: 45px;
+}
+footer{
+    margin-top: 100px;
+    padding-bottom: 20px;
+    background-color:hsl(0, 2%, 91%);
+}
+.logo2{
+    margin-top: 50px;
+    width: 70px;
+}
+.logo-con2{
+    display: flex;
+    justify-content: center;
+}
+.nav{
+    margin-top: 50px;
+}
+.nav li{
+    margin-left: -30px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(5, 10px);
+}
+
+.nav li a{
+    text-align: center;
+    text-decoration: none;
+    font-family: bai-light;
+    font-size: 15px;
+}
+.icon{
+    text-align: center;
+    font-size: 30px;
+    margin-left: 50px;
+}
+.fab{
+    margin-right: 20px;
+}
+
+@media (min-width: 700px){
+   header{
+       background-image: url(images/bg-header-desktop.png);
+       background-repeat: repeat-x;
+       width: 100%;
+   }
+   .logo{
+       width: 80px;
+       margin-top: 100px;
+   }
+   .word-header{
+       font-size: 35px;
+   }
+   .subword-header{
+    text-align: center;
+    font-size: 16px;
+   }
+   .button-section{
+       display: flex;
+       justify-content: center;
+   }
+   .download{
+    background-color: hsl(171, 66%, 44%);
+    margin-right: 20px;
+    padding: 10px;
+    padding-right: 25px;
+    padding-left: 25px;
+    border-radius: 40px;
+    border: white;
+    color: white;
+    font-family: bai-light;
+    font-size: 16px;
+    font-weight: 400;
+   }
+   .download a{
+     text-decoration: none;
+   }
+   .download1{
+    background-color: hsl(233, 100%, 69%);
+    padding: 10px;
+    padding-right: 25px;
+    padding-left: 25px;
+    border-radius: 40px;
+    border: white;
+    color: white;
+    font-family: bai-light;
+    font-size: 16px;
+    font-weight: 400;
+   }
+   .download1 a{
+    text-decoration: none;
+   }
+   .body-1-header{
+    text-align: center;
+    font-family: bai-bold;
+    font-size: 30px;
+   }
+   .body-1-subword{
+    font-size: 15px;
+    margin-right: 340px;
+    margin-left: 340px;
+    } 
+    .img-con{
+        margin-top: 110px;
+    }
+    .body-2-image{
+        width: 750px;
+        margin-left: -800px;
+    }
+    .body-2-2{
+        margin-left: 800px; 
+        margin-top: -520px;
+    }
+    .body-2-top h3{
+        text-align: left;
+        font-size: 25px;
+        font-family: bai-bold;
+    }
+    .body-2-top p{
+        padding-top: 10px;
+        text-align: left;
+        font-size: 15px;
+        font-family: bai-light;
+        margin-left: 0px;
+        margin-right: 200px;
+    }
+    .body-3{
+        margin-top: 250px;
+    }
+    .body-3 h1{
+        text-align: center;
+        font-size: 30px;
+    }
+    .body-3 p{
+        font-size: 16px;
+        margin-left: 330px;
+        margin-right: 330px;
+    }
+    .body-3 img{
+        width: 800px;
+    }
+    .body-4 h1{
+        font-size: 30px;
+    }
+    .body-4 p{
+        font-size: 16px;
+    }
+    .body-4-grid{
+        display: flex;
+        flex-direction: row;
+        margin-left: 215px;
+        margin-right: 215px;
+    }
+    .sponsor{
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: 0px;
+    }
+    .sponsor img{
+        width: 150px;
+    }
+    .body-end{
+        margin-top: 100px;
+    }
+    .body-end h1{
+        font-size: 35px;
+    }
+    .body-end p{
+        font-size: 16px;
+        margin-left: 300px;
+        margin-right: 300px;
+    }
+    .button-section1{
+        display: flex;
+        justify-content: center;
+    }
+    .logo2{
+        width: 80px;
+    }
+    .logo-con2{
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 200px;
+    }
+   .nav{
+       margin-top: -70px;
+       margin-left: 400px;
+       display: grid;
+       grid-template-columns:repeat(3,200px);
+   }
+   .nav li{
+      text-align: left; 
+   }
+   .nav li a:hover{
+    color: hsl(171, 66%, 44%);
+   }
+   .icon{
+       float: right;
+       margin-right: 90px;
+       margin-top: -100px;
+       font-size: 30px;
+   }
+   .fab:hover{
+    color: hsl(171, 66%, 44%);
+   }
+}
